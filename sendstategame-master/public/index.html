@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket Game</title>
+    <script src="/socket.io/socket.io.js"></script>   
+    
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    
+    <h1 > Score: <span id="score" >0</span> </h1>  
+    <div id="divPlayers"></div>
+    <canvas id="myCanvas" width="500" height="400"></canvas>    
+   
+
+    <script type="module" src="./js/game.client.js"></script>
+    <script type="module" src="/js/sockets.client.js"></script>
+    
+   
+    </body>
+    </html>
+</html>
